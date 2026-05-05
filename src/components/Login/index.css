@@ -1,0 +1,11 @@
+
+.l-img{
+    width: 50%;
+}
+.l-login{
+    display: flex;
+    flex-direction: column;
+}
+.l-login-form{
+    width: 50%;
+}

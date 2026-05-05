@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.f-links{
+    display: flex;
+    gap: 20px;
+}
+.f-container{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.f-link{
+    text-decoration: none;
+    color: rgb(156, 163, 175);
+}
+hr{
+   color: rgb(156, 163, 175);
+}

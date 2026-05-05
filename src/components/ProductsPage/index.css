@@ -1,0 +1,24 @@
+.products-page{
+    display: flex;
+    height: 65vh;
+    justify-content: center;
+    align-items: center;
+}
+.pp-img{
+    height: 400px;
+    width: 400px;
+}
+
+.pp-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.pp-title{
+    color: rgba(0, 0, 0, 0.534);
+}
+.pp-price-rating{
+    color: rgba(0, 0, 0, 0.644);
+}

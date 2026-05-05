@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.n-logo{
+    height: 100px;
+    width: 300px;
+}
+.n-others{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.n-search{
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    color: black;
+}
+.btn{
+    padding: 10px;
+    width: 90px;
+    background-color: rgba(0, 0, 255, 0.766);
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-width: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: medium;
+}
+.n-search-icon{
+    margin-right: 6px;
+    color: blue;
+}
+hr{
+    color: rgb(156, 163, 175);
+}
