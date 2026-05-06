@@ -10,10 +10,14 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     if (email && password) {
-      Cookies.set('jwt_token', email, { expires: 1 })
-      const token = Cookies.get(email)
-      console.log(token)
-      navigate('/')
+      localStorage.setItem('email', email)
+      localStorage.setItem('pwd', password)
+    }
+    const storedEmail = localStorage.getItem('email')
+    const storedPwd = localStorage.getItem('pwd')
+    console.log(storedEmail + ' ' + storedPwd)
+    if (storedEmail && storedPwd) {
+      navigate('/home')
     }
   }
   return (
