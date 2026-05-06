@@ -2,7 +2,7 @@ import logo from '../../assets/flipazonlogo2.png'
 import Cookies from 'js-cookie'
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
-import '../Login/index.css'
+import './index.css'
 const Login = () => {
   const navigate = useNavigate()
   const [email, setEmail] = useState('')

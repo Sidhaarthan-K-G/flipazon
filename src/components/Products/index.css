@@ -1,6 +1,5 @@
-.main-container{
+.product-container{
     overflow-y: auto;
-    height: 100vh;
 }
 .p-products-list{
     display: grid;

@@ -1,4 +1,4 @@
-import '../Footer/index.css'
+import './index.css'
 import { FaInstagram, FaTwitter, FaEnvelope } from 'react-icons/fa'
 const Footer = () => {
   return (

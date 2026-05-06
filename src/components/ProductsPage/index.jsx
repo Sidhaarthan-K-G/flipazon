@@ -1,4 +1,4 @@
-import '../ProductsPage/index.css'
+import './index.css'
 import { useLocation } from 'react-router-dom'
 import { FaShoppingBag } from 'react-icons/fa'
 const ProductsPage = () => {

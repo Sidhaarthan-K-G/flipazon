@@ -1,6 +1,6 @@
-import '../Navbar/index.css'
+import './index.css'
 import logo from '../../assets/flipazonlogo2.png'
-import { FaSearch } from 'react-icons/fa'
+import { FaSearch, FaShoppingBasket } from 'react-icons/fa'
 import Products from '../Products'
 import { useNavigate } from 'react-router-dom'
 const Navbar = () => {
@@ -11,6 +11,9 @@ const Navbar = () => {
     const login = () => {
         navigate('/login')
     }
+    const cart = () =>{
+        navigate('/cart')
+    }
     return(
         <>
             <div className='navbar'>
@@ -19,6 +22,7 @@ const Navbar = () => {
                     <FaSearch className='n-search-icon' />
                     <input type = 'search' className='n-search' placeholder='Search Products'/>
                     <button type = 'button' className='btn' onClick = {products}>Products</button>
+                    <button type = 'button' className='n-btn' onClick = {cart} ><FaShoppingBasket className='fa-shopping'/></button>
                     <button type = 'button' className='btn' onClick = {login}>Login</button>
 
                 </div>
