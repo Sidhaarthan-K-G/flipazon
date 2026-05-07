@@ -1,6 +1,6 @@
 import './index.css'
 import logo from '../../assets/flipazonlogo2.png'
-import { FaSearch, FaShoppingBasket } from 'react-icons/fa'
+import { FaSearch, FaShoppingCart } from 'react-icons/fa'
 import Products from '../Products'
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
@@ -39,7 +39,7 @@ const Navbar = () => {
             Products
           </button>
           <button type="button" className="btn" onClick={cart}>
-            <FaShoppingBasket className="fa-shopping" />
+            <FaShoppingCart className="fa-shopping" />
           </button>
           <button type="button" className="btn" onClick={handleAuth}>
             {isLoggedIn ? "Login" : "Logout"}

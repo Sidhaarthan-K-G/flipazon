@@ -27,17 +27,23 @@ const Login = () => {
         <h1 className="l-heading">Login</h1>
         <form className="l-login-form" onSubmit={handleSubmit}>
           <input
+            className="l-input"
+            required
             type="email"
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
+          <br />
           <input
+            className="l-input"
+            required
             type="password"
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
+          <br />
           <button type="submit" className="btn">
             Login
           </button>
