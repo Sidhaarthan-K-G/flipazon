@@ -8,18 +8,15 @@
     height: 100px;
     width: 300px;
 }
+.n-logo:hover{
+    cursor: pointer;
+}
 .n-others{
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.n-search{
-    padding: 10px;
-    background-color: #ffffff;
-    border: 1px solid gainsboro;
-    border-radius: 5px;
-    color: black;
-}
+
 .btn{
     padding: 10px;
     width: 90px;
@@ -30,6 +27,11 @@
     border-radius: 5px;
     font-weight: bold;
     font-size: medium;
+    transition: all 0.2s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
 }
 .n-search-icon{
     margin-right: 6px;

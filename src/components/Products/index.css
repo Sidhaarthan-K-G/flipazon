@@ -34,3 +34,16 @@
 .p-heading{
     color: rgba(0, 0, 0, 0.568);
 }
+.p-input{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+.p-search{
+    padding: 10px;
+    width: 20%;
+    background-color: #ffffff;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    color: black;
+}

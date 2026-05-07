@@ -17,6 +17,9 @@ const Navbar = () => {
         navigate('/')
     }
   }
+  const home =() =>{
+    navigate('/home')
+  }
   const products = () => {
     navigate('/products')
   }
@@ -29,18 +32,13 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar">
-        <img src={logo} alt="flipazon" className="n-logo" />
+        <img src={logo} alt="flipazon" className="n-logo" onClick={home} />
         <div className="n-others">
-          <FaSearch className="n-search-icon" />
-          <input
-            type="search"
-            className="n-search"
-            placeholder="Search Products"
-          />
+          
           <button type="button" className="btn" onClick={products}>
             Products
           </button>
-          <button type="button" className="n-btn" onClick={cart}>
+          <button type="button" className="btn" onClick={cart}>
             <FaShoppingBasket className="fa-shopping" />
           </button>
           <button type="button" className="btn" onClick={handleAuth}>
