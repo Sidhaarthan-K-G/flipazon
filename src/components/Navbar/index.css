@@ -7,9 +7,11 @@
 .n-logo{
     height: 100px;
     width: 300px;
+    transition: all 1s ease;
 }
 .n-logo:hover{
     cursor: pointer;
+    transform: skew(20deg, 20deg);
 }
 .n-others{
     display: flex;
